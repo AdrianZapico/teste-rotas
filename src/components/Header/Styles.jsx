@@ -1,4 +1,16 @@
-import styled from "styled-components";
+import styled,{keyframes} from "styled-components";
+
+
+const height = "25vmin"
+const rotate = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+`;
 
 export const HeaderStyled = styled.header`
 
@@ -11,8 +23,6 @@ export const ContainerStyledHeader = styled.div`
     padding: 20px 0;
     width: 100%;
     height: 60%;
-
-
 `
 export const Li = styled.li`
     display: inline;
@@ -22,7 +32,19 @@ export const Li = styled.li`
     color: whitesmoke;
 
 `
+export const Spin =  styled.div`
+
+    animation: ${rotate} 3s linear infinite;
+    display: inline-block;
+    margin: 30px 50px;
+ 
+`
+export const LogoImg = styled.img`
 
 
+    height: ${height};
+    pointer-events: none;
 
+
+`
 

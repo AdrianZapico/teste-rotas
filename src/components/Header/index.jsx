@@ -1,43 +1,25 @@
 import React from "react";
-import { ContainerStyledHeader, Li } from "./Styles"
+import { ContainerStyledHeader, Li, Spin ,LogoImg } from "./Styles"
 import { Link, Outlet } from "react-router-dom"
+import Logo from "../../assets/pretoebranco.png"
 
 
-export default function Header() {
+
+export default function Header(props) {
 
     return (
         <>
             <ContainerStyledHeader>
 
                 <header>
-                
 
                     <div class="box">
-                    
-                        <nav>
-                            <ul>
-                                <Li>
-                                    <Link className="linkRouter" to="home">
-                                        
-                                    </Link>
-                                    <Link className="linkRouter" to="code">
-                                       
-                                    </Link>
-                                    <Link className="linkRouter" to="musicas">
-                                       
-                                    </Link>
-                                    <Link className="linkRouter" to="contato">
-                                       
-                                    </Link>
-                                    <Link className="linkRouter" to="bonus">
-                                        
-                                    </Link>
-                                    <Outlet/>
-                                </Li>
+                        <Spin>
+                            <LogoImg src={Logo} alt=""/>
+                        </Spin>
 
-                            </ul>
 
-                        </nav>
+                       
                     </div>
 
 
@@ -45,10 +27,6 @@ export default function Header() {
                 </header>
 
             </ContainerStyledHeader>
-
-
-
-
 
         </>
     )

@@ -10,7 +10,7 @@ export default function Main(props) {
     return (
         <>
         <MainStyled>
-        works?
+       
         </MainStyled>
         </>
     )
