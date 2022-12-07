@@ -18,8 +18,6 @@ export default function Header(props) {
                             <LogoImg src={Logo} alt=""/>
                         </Spin>
 
-
-                       
                     </div>
 
 
