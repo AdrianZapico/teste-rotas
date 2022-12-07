@@ -3,8 +3,9 @@ import styled from "styled-components";
 
 export const NavStyled = styled.nav`
     position: absolute;
-    top: 110px;
-    right: 0;
+    top: 50px;
+    right: 20px;
+    padding-right: 50px;
 `
 export const UlStyled = styled.ul`
     margin: 0%;
@@ -20,7 +21,7 @@ export const LiStyled = styled.li`
     font-size: 22px;
     text-decoration: none;
     &:hover{
-        color: #559cde;
+        color: #de8055;
     font-size: 30px;
     transition: all ease 0.3s;
     }

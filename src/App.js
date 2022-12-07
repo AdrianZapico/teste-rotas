@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import GlobalStyle from "./styles/global";
 import Header from "./components/Header";
 import Main from "./components/Main";
+import Nav from "./components/Nav";
 
 
 export default function App() {
@@ -12,8 +13,11 @@ export default function App() {
     <>
     <BrowserRouter>
       <Header/>
+      <Nav>
+      </Nav>
       <Switch/>
       <Main/>
+      
       <Footer/>
     </BrowserRouter>
     <GlobalStyle/>

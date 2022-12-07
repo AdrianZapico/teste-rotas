@@ -1,16 +1,55 @@
-import { BoxStyled,HeaderStyled } from "./Styles";
-import Nav from "../Nav"
+import React from "react";
+import { ContainerStyledHeader, Li } from "./Styles"
+import { Link, Outlet } from "react-router-dom"
+
 
 export default function Header() {
 
     return (
         <>
-            <HeaderStyled>
-                <BoxStyled>
-                    <a href="index.html"><img src="https://adrianzapico-front-end-port.netlify.app/pretoebranco.png" alt="" /></a>
-                   <Nav/>
-                    </BoxStyled>
-                </HeaderStyled>
+            <ContainerStyledHeader>
+
+                <header>
+                
+
+                    <div class="box">
+                    
+                        <nav>
+                            <ul>
+                                <Li>
+                                    <Link className="linkRouter" to="home">
+                                        
+                                    </Link>
+                                    <Link className="linkRouter" to="code">
+                                       
+                                    </Link>
+                                    <Link className="linkRouter" to="musicas">
+                                       
+                                    </Link>
+                                    <Link className="linkRouter" to="contato">
+                                       
+                                    </Link>
+                                    <Link className="linkRouter" to="bonus">
+                                        
+                                    </Link>
+                                    <Outlet/>
+                                </Li>
+
+                            </ul>
+
+                        </nav>
+                    </div>
+
+
+
+                </header>
+
+            </ContainerStyledHeader>
+
+
+
+
+
         </>
     )
 }

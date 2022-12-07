@@ -1,7 +1,7 @@
 import { NavStyled, UlStyled, LiStyled } from "./Styles"
 import { Link, Outlet } from "react-router-dom"
 
-export default function Header() {
+export default function Nav() {
 
     return (
         <>
@@ -10,11 +10,17 @@ export default function Header() {
                     <Link  className="linkRouter" to="home">
                         <LiStyled> Home </LiStyled>
                     </Link>
-                    <Link className="linkRouter" to="about">
-                        <LiStyled> About </LiStyled>
+                    <Link className="linkRouter" to="code">
+                        <LiStyled> Code </LiStyled>
                     </Link>
-                    <Link className="linkRouter" to="contact">
-                        <LiStyled> Contact </LiStyled>
+                    <Link className="linkRouter" to="musicas">
+                        <LiStyled> Musicas </LiStyled>
+                    </Link>
+                    <Link className="linkRouter" to="Contato">
+                        <LiStyled> Contato </LiStyled>
+                    </Link>
+                    <Link className="linkRouter" to="Bonus">
+                        <LiStyled> Bonus</LiStyled>
                     </Link>
                 </UlStyled>
             </NavStyled>
