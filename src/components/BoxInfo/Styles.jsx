@@ -1,5 +1,6 @@
-import styled,{keyframes} from "styled-components";
+import styled, { keyframes } from "styled-components";
 
+const redPersonal = "#c53e1c"
 const height = "4vmin"
 const rotate = keyframes`
   from {
@@ -18,6 +19,12 @@ export const GranBox = styled.div`
     padding: 50px 130px;
     border: 2px solid rgba(19, 0, 0 ) ;
     background-color: rgba(19, 0, 0 ) ;
+    @media screen {
+      width: auto;
+      height: auto;
+      padding: auto;
+
+    }
 
 `
 export const BoxInfoStyled = styled.div`
@@ -32,6 +39,7 @@ export const BoxInfoStyled = styled.div`
     border: 2px solid rgba(19, 0, 0 );
     border-radius: 10px;
     color: transparent;
+    margin-top: 30px;
     &:hover
     {
     background-color: whitesmoke;
@@ -40,6 +48,20 @@ export const BoxInfoStyled = styled.div`
     transform: rotate(725deg) scale(1.2);
     transition: all ease 0.8s;  
     }
+    @media screen and (max-width:480px)
+    {
+      width: auto;
+      height: auto;
+      padding: auto;
+      margin: 0 1.5%;
+     padding: 2px 40px;
+     box-sizing: border-box;
+     border: 2px solid rgba(19, 0, 0 );
+     border-radius: 10px;
+     color: transparent;
+     margin-top: 15px;
+      
+    }
     
 `
 export const AHome = styled.a`
@@ -47,7 +69,7 @@ export const AHome = styled.a`
   text-decoration: none;
  	color: rgba(19, 0, 0 );
     &:hover{
-    color: #c53e1c;
+    color: ${redPersonal};
 		transition: all ease 0.7s;
 		font-size: 25px;
 	}
@@ -55,15 +77,36 @@ export const AHome = styled.a`
 `
 export const LogoImg = styled.img`
 
-
+    
     height: ${height};
     pointer-events: none;
 
 
+
 `
-export const Spin =  styled.div`
+export const Spin = styled.div`
 
     animation: ${rotate} 3s linear infinite;
     display: inline-block;
-    margin: 30px 50px;
+    margin: 10px 10px;
+`
+export const BtnStyled = styled.button`
+
+  margin:0px 1px 1px 0px;
+  padding: 0px; 
+  display: inline-block;
+  
+`
+export const PersonalInfo = styled.div`
+  
+  background-color: white;
+    color: rgba(19, 0, 0);
+    display: inline-block;
+    padding:  12px ;
+    font-family: Impact;
+    border-radius: 10px;
+    position: relative;
+    padding-left: 40px;
+    
+
 `

@@ -10,6 +10,7 @@ export const NavStyled = styled.nav`
 export const UlStyled = styled.ul`
     margin: 0%;
     padding: 0%;
+    
 
 `
 export const LiStyled = styled.li`
@@ -24,6 +25,21 @@ export const LiStyled = styled.li`
         color: #de8055;
     font-size: 30px;
     transition: all ease 0.3s;
+    }
+    @media screen and (max-width:480px)
+    {
+    display: inline;
+    margin: 0 0 0 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    text-decoration: none;
+    &:hover{
+        color: #de8055;
+    font-size: 15px;
+    transition: all ease 0.3s;
+    }
     }
 `
 

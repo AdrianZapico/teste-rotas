@@ -1,6 +1,5 @@
 import React from "react";
-import { ContainerStyledHeader, Li, Spin ,LogoImg } from "./Styles"
-import { Link, Outlet } from "react-router-dom"
+import { ContainerStyledHeader,  Spin ,LogoImg } from "./Styles"
 import Logo from "../../assets/pretoebranco.png"
 
 

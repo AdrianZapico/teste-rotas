@@ -34,16 +34,27 @@ export const Li = styled.li`
 `
 export const Spin =  styled.div`
 
+    
     animation: ${rotate} 3s linear infinite;
     display: inline-block;
-    margin: 30px 50px;
+    margin: 5px 5px;
+   
  
 `
 export const LogoImg = styled.img`
 
 
     height: ${height};
+    
     pointer-events: none;
+    margin: 5px 5px;
+    @media screen and (max-width:480px)
+    {
+      
+      height:5vh ;
+      padding: 40px 20px;
+
+    }
 
 
 `
