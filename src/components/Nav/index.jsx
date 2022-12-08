@@ -7,7 +7,7 @@ export default function Nav() {
         <>
             <NavStyled>
                 <UlStyled>
-                    <Link  className="linkRouter" to="home">
+                    <Link  className="linkRouter" to="/">
                         <LiStyled> Home </LiStyled>
                     </Link>
                     <Link className="linkRouter" to="code">
@@ -16,10 +16,10 @@ export default function Nav() {
                     <Link className="linkRouter" to="musicas">
                         <LiStyled> Musicas </LiStyled>
                     </Link>
-                    <Link className="linkRouter" to="Contato">
+                    <Link className="linkRouter" to="contato">
                         <LiStyled> Contato </LiStyled>
                     </Link>
-                    <Link className="linkRouter" to="Bonus">
+                    <Link className="linkRouter" to="bonus">
                         <LiStyled> Bonus</LiStyled>
                     </Link>
                 </UlStyled>

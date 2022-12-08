@@ -13,7 +13,6 @@ export default function Switch() {
         <Routes>
             <Route>
                 <Route path="/"element={<Home />} />
-                <Route path="home"element={<Home />} />
                 <Route path="code" element={<Code />} />
                 <Route path="musicas" element={<Musicas />} />
                 <Route path="contato" element={<Contato />} />

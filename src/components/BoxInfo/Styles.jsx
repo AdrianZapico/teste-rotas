@@ -44,7 +44,10 @@ export const BoxInfoStyled = styled.div`
 `
 export const AHome = styled.a`
 
+  text-decoration: none;
+ 	color: rgba(19, 0, 0 );
     &:hover{
+    color: #c53e1c;
 		transition: all ease 0.7s;
 		font-size: 25px;
 	}
