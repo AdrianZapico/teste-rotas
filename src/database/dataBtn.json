@@ -1,0 +1,29 @@
+
+[
+    {
+      "description":"Facebook",
+      "link":"https://www.facebook.com/profile.php?id=100011225529227",
+      "color":"#3b5998"
+    },
+    {
+      "description":"GitHub ",
+      "link":"https://github.com/AdrianZapico",
+      "color":"#333"
+    },
+    {
+      "description":"YouTube",
+      "link":"",
+      "color":"#FF0000"
+    },
+    {
+      "description":"WhatsApp",
+      "link":"",
+      "color":"#25D366"
+    },
+    {
+      "description":"Instagram",
+      "link":"",
+      "color":"#E1306C"
+    }
+  ]
+

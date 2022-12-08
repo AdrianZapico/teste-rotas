@@ -1,15 +1,49 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+ 
+
+const height = "4vmin"
+const rotate = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+`;
 
 export const FooterStyled = styled.footer`
     position: relative;
     z-index: 1;
+    text-align: center;
 `
 export const DivFooterStyled = styled.div`
 
-    color: wheat;
+    color: whitesmoke;
     margin: 0 auto;
     width: 100%;
     height: 200px;
     background-color: rgba(19, 0, 0 );
     
+`
+export const LogoImg = styled.img`
+
+    
+    height: ${height};
+    pointer-events: none;
+
+
+
+`
+export const Spin = styled.div`
+
+    animation: ${rotate} 3s linear infinite;
+    display: inline-block;
+    margin: 10px 10px;
+`
+export const SocialLinks = styled.button`
+
+    background-color: transparent;
+    border: none;
+
 `
