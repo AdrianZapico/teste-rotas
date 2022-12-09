@@ -1,10 +1,13 @@
 import React from "react";
+import BoxMusic from "../components/BoxMusic";
 
 export default function musicas(){
 return(
     <>
 
-    <p>Músicas</p>
+    <BoxMusic>
+        
+    </BoxMusic>
 
     </>
 )
