@@ -21,10 +21,10 @@ export default function ButtonInfo(props) {
 
                             <h2>{element.title}</h2>
                             
-                            <p>{element.description}</p>
+                            
                             <p>
                                 <AHome href={element.link}>
-                                    
+                                <p>{element.description}</p>
                                 </AHome>
                             </p>
 

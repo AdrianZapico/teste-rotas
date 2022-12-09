@@ -36,13 +36,14 @@ export const ButtonInfoStyled = styled.div`
     padding: 7px 10px;
     background-color: rgb(66 103 178);  
     }
+    
     @media screen and (max-width:480px)
     {
       width: auto;
       height: auto;
       padding: auto;
-      margin: 0 1.5%;
-     padding: 2px 40px;
+      margin: 10 10px;
+     padding: 2px 5px;
      box-sizing: border-box;
      border: 2px solid rgba(19, 0, 0 );
      border-radius: 10px;
@@ -55,12 +56,8 @@ export const ButtonInfoStyled = styled.div`
 export const AHome = styled.a`
 
   text-decoration: none;
- 	color: rgba(19, 0, 0 );
-    &:hover{
-    color: ${redPersonal};
-		transition: all ease 0.7s;
-		font-size: 25px;
-	}
+ 	color: whitesmoke;
+ 
    
 `
 export const LogoImg = styled.img`

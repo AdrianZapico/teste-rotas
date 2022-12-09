@@ -12,18 +12,23 @@
     },
     {
       "description":"YouTube",
-      "link":"",
+      "link":"https://www.youtube.com/",
       "color":"#FF0000"
     },
     {
       "description":"WhatsApp",
-      "link":"",
+      "link":"https://api.whatsapp.com/send?phone=5531997489284",
       "color":"#25D366"
     },
     {
       "description":"Instagram",
-      "link":"",
+      "link":"https://www.instagram.com/adrian_zapico/",
       "color":"#E1306C"
+    },
+    {
+      "description":"Linkedn",
+      "link":"https://www.linkedin.com/in/adrian-zapico-719498218/",
+      "color":"#0e76a8"
     }
   ]
 

@@ -16,13 +16,14 @@ export const FooterStyled = styled.footer`
     position: relative;
     z-index: 1;
     text-align: center;
+   
 `
 export const DivFooterStyled = styled.div`
 
     color: whitesmoke;
     margin: 0 auto;
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-color: rgba(19, 0, 0 );
     
 `
@@ -46,4 +47,14 @@ export const SocialLinks = styled.button`
     background-color: transparent;
     border: none;
 
+`
+export const AHome = styled.a`
+
+  text-decoration: none;
+ 	color: whitesmoke;
+  display: inline-block;
+  margin-top: 30px;
+  
+ 
+   
 `
