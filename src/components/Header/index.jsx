@@ -1,5 +1,5 @@
 import React from "react";
-import { ContainerStyledHeader,  Spin ,LogoImg } from "./Styles"
+import { ContainerStyledHeader,  Spin , LogoImg } from "./Styles"
 import Logo from "../../assets/pretoebranco.png"
 
 
@@ -12,7 +12,7 @@ export default function Header(props) {
 
                 <header>
 
-                    <div class="box">
+                    <div className="box">
                         <Spin>
                             <LogoImg src={Logo} alt=""/>
                         </Spin>

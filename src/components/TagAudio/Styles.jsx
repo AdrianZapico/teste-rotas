@@ -43,6 +43,7 @@ export const TagAudioStyled = styled.div`
      border-radius: 10px;
      color: transparent;
      margin-top: 15px;
+     
       
     }
     
@@ -61,4 +62,77 @@ export const Spin = styled.div`
     animation: ${rotate} 3s linear infinite;
     display: inline-block;
     margin: 10px 10px;
+`
+export const TextH2 = styled.h2`
+
+font-family: serif;
+color: rgba(19, 0, 0 ) ;
+
+@media screen and (max-width:480px)
+    {
+      font-size:10px;
+      
+    }
+
+`
+export const BtnPlay = styled.button`
+
+  text-align: center;
+  margin: 10px;
+  width: 60px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  &:hover{
+    background-color: #26af3d;
+    border: none;
+  }
+  &:active{
+    background-color: #92ce9c;
+  }
+
+
+`
+export const BtnPause = styled.button`
+
+  text-align: center;
+  margin: 10px;
+  width: 60px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-family:  sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  &:hover{
+    background-color: #eb4f28;
+    border: none;
+  }
+  &:active{
+    background-color: #e18169;
+  }
+
+
+
 `
