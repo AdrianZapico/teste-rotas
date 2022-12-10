@@ -75,21 +75,6 @@ export const AHome = styled.a`
 	}
    
 `
-export const LogoImg = styled.img`
-
-    
-    height: ${height};
-    pointer-events: none;
-
-
-
-`
-export const Spin = styled.div`
-
-    animation: ${rotate} 3s linear infinite;
-    display: inline-block;
-    margin: 10px 10px;
-`
 export const BtnStyled = styled.button`
 
   margin:0px 1px 1px 0px;
