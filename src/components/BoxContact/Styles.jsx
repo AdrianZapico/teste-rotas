@@ -27,7 +27,18 @@ export const GranBox = styled.div`
     }
 
 `
-export const BoxInfoStyled = styled.div`
+export const TopTitle = styled.div`
+
+  text-align: center;
+  font-family: Impact;
+  font-style: normal;
+  font-size: 40px;
+  color: whitesmoke;
+
+
+`
+
+export const BoxContactStyled = styled.div`
  
     display: inline-block;
     text-align: center;
@@ -67,17 +78,17 @@ export const BoxInfoStyled = styled.div`
 export const AHome = styled.a`
 
   text-decoration: none;
- 	color: rgba(19, 0, 0 );
+ 	color: whitesmoke;
     &:hover{
-    color: ${redPersonal};
+    color: rgba(19,0,0);
 		transition: all ease 0.7s;
 		font-size: 25px;
 	}
   &:active{
-    color: #de8989;
+    color: #979797;
     transition: all ease 0.7s;
     font-size: 20px;
-    }
+  }
    
 `
 export const LogoImg = styled.img`

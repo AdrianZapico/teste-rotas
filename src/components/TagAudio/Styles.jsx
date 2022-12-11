@@ -13,6 +13,7 @@ const rotate = keyframes`
 
 export const TagAudioStyled = styled.div`
  
+    text-align: center;
     display: inline-block;
     text-align: center;
     width: 40%;

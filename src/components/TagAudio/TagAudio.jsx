@@ -1,7 +1,7 @@
 import React from "react";
 import { TagAudioStyled, LogoImg, Spin, TextH2, BtnPause, BtnPlay } from "./Styles";
 import Logo from "../../assets/pretoebranco.png";
-import { FaBeer } from 'react-icons/fa';
+
 
 
 export default function TagAudio(props) {
@@ -19,7 +19,7 @@ export default function TagAudio(props) {
                     </Spin>
                 </div>
 
-                <FaBeer />
+                
                 <TextH2>
                     {props.description}
                 </TextH2>
