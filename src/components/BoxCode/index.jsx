@@ -16,6 +16,7 @@ export default function BoxCode() {
 
     return (
         <>
+        
             <GranBox>
             <TopTitle>Code</TopTitle>
 
