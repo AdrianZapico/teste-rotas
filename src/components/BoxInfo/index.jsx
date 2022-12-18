@@ -1,5 +1,5 @@
 import React from "react";
-import { BoxInfoStyled, GranBox, AHome, LogoImg, Spin, BtnStyled, PersonalInfo } from "./Styles";
+import { BoxInfoStyled, GranBox, AHome, LogoImg, Spin, BtnStyled, PersonalInfo, TopTitle } from "./Styles";
 import { useState } from "react"
 import Logo from "../../assets/pretoebranco.png"
 import data from "../../database/data.json"
@@ -29,6 +29,7 @@ export default function BoxInfo(props) {
             
 
             <GranBox>
+                <TopTitle>Info</TopTitle>
                 <BtnStyled onClick={handleShow}></BtnStyled>
                 
                 {mostrar &&

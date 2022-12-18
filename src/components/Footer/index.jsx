@@ -18,7 +18,7 @@ export default function Footer(props) {
 
           <div>
             <h5>Sobre mim</h5>
-            <p>Oi, Sou Adrian Zapico manager da Volúpia Music ®.
+            <p>Olá, Sou Adrian Zapico manager da Volúpia Music ®.
               Sou produtor musical e programador. Quero compartilhar meus conhecimentos com vocês
             </p>
           </div>

@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import AudioSpectrum from 'react-audio-spectrum'
+import audio from '../../assets/audios/1.mp3'
 
-
-const onInputChange = (e) => {
-    var sound = document.getElementById('sound');
-    sound.src = URL.createObjectURL(e.target.files[0]);
-}
+// const onInputChange = (e) => {
+//     var sound = document.getElementById('sound');
+//     sound.src = URL.createObjectURL(e.target.files[0]);
+// }
 const getLocalSettings = () => ({
     capColor: localStorage.getItem('capColor') || ' ',
     capHeight: Number(localStorage.getItem('capHeight') || 4),
@@ -20,6 +20,7 @@ const getLocalSettings = () => ({
 export default function AudioVisualizer() {
 
     const [defaultSettings] = useState(getLocalSettings)
+    
     const [capColor, setCapColor] = useState(defaultSettings.capColor)
     const [capHeight, setCapHeight] = useState(defaultSettings.capHeight)
     const [meterWidth, setMeterWidth] = useState(defaultSettings.meterWidth)
@@ -37,8 +38,8 @@ export default function AudioVisualizer() {
           display: 'flex',
         }}>
           <div className="setting-section file">
-            <input type="file" id="input" accept="audio/*" onChange={onInputChange} />
-            <audio id="sound" controls></audio>
+            {/* <input type="file" id="input" accept="audio/*" onChange={onInputChange} /> */}
+            <audio id="sound" src={audio} controls></audio>
           </div>
          
         </div>
@@ -47,7 +48,7 @@ export default function AudioVisualizer() {
           style={{
             padding: 10
           }}
-          height={120}
+          height={200}
           width={200}
           audioId={'sound'}
           capColor={capColor}

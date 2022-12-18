@@ -51,13 +51,14 @@ export const BoxContactStyled = styled.div`
     border-radius: 10px;
     color: transparent;
     margin-top: 30px;
+    transition: ease-in-out 0.8s; 
     &:hover
     {
     background-color: whitesmoke;
     border-color: rgba(19, 0, 0 );
     color:rgba(19, 0, 0 ) ;
-    transform: rotate(725deg) scale(1.2);
-    transition: all ease 0.8s;  
+    /* transform: rotate(725deg) scale(1.2); */
+   
     }
     @media screen and (max-width:480px)
     {

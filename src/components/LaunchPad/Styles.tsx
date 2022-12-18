@@ -7,6 +7,7 @@ export const TopTitle = styled.div`
   font-style: normal;
   font-size: 40px;
   color: whitesmoke;
+  padding-right: 40px;
   
   
 

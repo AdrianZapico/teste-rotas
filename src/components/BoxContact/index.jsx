@@ -16,7 +16,7 @@ export default function BoxContact(props) {
 
             <GranBox>
                 
-                <TopTitle>Links para contatos</TopTitle>
+                <TopTitle>Links para contato</TopTitle>
 
                 {
                     data.map((element, index) =>
@@ -29,7 +29,7 @@ export default function BoxContact(props) {
                             </Spin>
                             <p>{element.description}</p>
                             <p>
-                                <AHome href={element.link}>
+                                <AHome href={element.link} target="_blank">
                                     ↠ Para saber +
                                 </AHome>
                             </p>

@@ -8,9 +8,7 @@ export default function code(){
     
     return(
         <>
-        <BoxCode>
-            
-        </BoxCode>
+        <BoxCode/>
         </>
     )
 }

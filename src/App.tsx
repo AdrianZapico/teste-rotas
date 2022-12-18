@@ -18,8 +18,7 @@ export default function App() {
     
     <BrowserRouter>
       <Header/>
-      <Nav>
-      </Nav>
+      <Nav/>
       <Switch/>
       <Main/>
       

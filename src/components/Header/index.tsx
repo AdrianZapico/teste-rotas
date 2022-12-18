@@ -1,10 +1,8 @@
 import React from "react";
 import { ContainerStyledHeader,  Spin , LogoImg } from "./Styles"
-import Logo from "../../assets/pretoebranco.png"
 
 
-
-export default function Header(props) {
+export default function Header(props:any) {
 
     return (
         <>
@@ -14,7 +12,7 @@ export default function Header(props) {
 
                     <div className="box">
                         <Spin>
-                            <LogoImg src={Logo} alt=""/>
+                            <LogoImg src={require('../../assets/pretoebranco.png')} alt=""/>
                         </Spin>
 
                     </div>

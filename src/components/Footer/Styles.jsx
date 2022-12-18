@@ -23,8 +23,9 @@ export const DivFooterStyled = styled.div`
     color: whitesmoke;
     margin: 0 auto;
     width: 100%;
-    height: 300px;
+    height: 350px;
     background-color: rgba(19, 0, 0 );
+   
     
 `
 export const LogoImg = styled.img`

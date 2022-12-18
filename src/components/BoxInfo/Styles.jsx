@@ -12,6 +12,18 @@ const rotate = keyframes`
   }
 `;
 
+export const TopTitle = styled.div`
+
+  text-align: center;
+  font-family: Impact;
+  font-style: normal;
+  font-size: 40px;
+  color: whitesmoke;
+  
+
+
+`
+
 export const GranBox = styled.div`
 
     width: 940px;
