@@ -58,7 +58,7 @@ export const BoxMusicStyled = styled.div`
     background-color: whitesmoke;
     border-color:  rgba(19, 0, 0 );
     transform: scale(1);
-    transition: all ease 0.8s;  
+    transition: all ease 0.5s;  
     }
     @media screen and (max-width:480px)
     {

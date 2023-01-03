@@ -87,7 +87,7 @@ export const AHome = styled.a`
 	}
   &:active{
     color: #979797;
-    transition: all ease 0.7s;
+    transition: all ease-in-out 0.7s;
     font-size: 20px;
   }
    

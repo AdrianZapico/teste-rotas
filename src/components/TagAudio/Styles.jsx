@@ -2,12 +2,16 @@ import styled, { keyframes }  from "styled-components";
 
 const height = "4vmin"
 const rotate = keyframes`
-  from {
-    transform: rotate(0deg);
+  0% {
+    transform: translateX(0);
   }
 
-  to {
+  50%{
     transform: rotate(360deg);
+  }
+
+  100% {
+    transform:translateX(calc(100vh - 200px));
   }
 `;
 

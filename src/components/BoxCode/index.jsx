@@ -12,7 +12,7 @@ export default function BoxCode() {
         fetch('https://api.github.com/users/AdrianZapico/repos')
             .then(response => response.json())
             .then(data => setRepositories(data))
-    }, [])
+    }, [repositories])
 
     return (
         <>
